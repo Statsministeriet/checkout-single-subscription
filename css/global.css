@@ -82,7 +82,7 @@ h4 {
 }
 .sr-header__logo {
   background-image: var(--logo-image);
-  height: 24px;
+  height: 48px;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -357,9 +357,9 @@ pre {
 
 /* Pasha styles – Brand-overrides, can split these out */
 :root {
-  --accent-color: #ed5f74;
+  --accent-color: #6331f3;
   --headline-color: var(--accent-color);
-  --logo-image: url("https://storage.googleapis.com/stripe-sample-images/logo-pasha.svg");
+  --logo-image: url("https://table.nu/assets/img/logo/logo.png");
 }
 
 .pasha-image-stack {
