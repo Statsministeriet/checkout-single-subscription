@@ -19,46 +19,16 @@
           <div class="sr-header__logo"></div>
         </header>
         <div class="sr-container">
-          <section class="container basic-photo">
+          <section class="container">
             <div>
-              <h1>Basic subscription</h1>
-              <h4>1 photo per month</h4>
-              <div class="pasha-image">
-                <img
-                  src="https://picsum.photos/280/320?random=4"
-                  width="140"
-                  height="160"
-                />
-              </div>
+              <h1>Månedlig betaling</h1>
             </div>
-            <button id="basic-btn">$5.00 per month</button>
+            <button id="basic-btn">249 kr/md + moms</button>
           </section>
           <section class="container pro-photo">
             <div>
-              <h1>Pro subscription</h1>
-              <h4>3 photos per month</h4>
-              <div class="pasha-image-stack">
-                <img
-                  src="https://picsum.photos/280/320?random=1"
-                  width="105"
-                  height="120"
-                  alt="Sample Pasha image 1"
-                />
-                <img
-                  src="https://picsum.photos/280/320?random=2"
-                  width="105"
-                  height="120"
-                  alt="Sample Pasha image 2"
-                />
-                <img
-                  src="https://picsum.photos/280/320?random=3"
-                  width="105"
-                  height="120"
-                  alt="Sample Pasha image 3"
-                />
-              </div>
-            </div>
-            <button id="pro-btn">$14.00 per month</button>
+              <h1>Årlig betaling</h1>
+            <button id="pro-btn">199 kr/md + moms</button>
           </section>
         </div>
         <div id="error-message"></div>
@@ -67,12 +37,12 @@
 
     <script>
       // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-      var PUBLISHABLE_KEY = "pk_1234";
+      var PUBLISHABLE_KEY = "pk_live_U4AxAgP2GR9KYfeuVkJBXgvP00vaQ9ZGoo";
       // Replace with the domain you want your users to be redirected back to after payment
       var DOMAIN = window.location.hostname;
       // Replace with a SKU for your own product (created either in the Stripe Dashboard or with the API)
-      var SUBSCRIPTION_BASIC_PLAN_ID = "plan_1234";
-      var SUBSCRIPTION_PRO_PLAN_ID = "plan_5678";
+      var SUBSCRIPTION_BASIC_PLAN_ID = "plan_H2IPhMYd6mcmQa";
+      var SUBSCRIPTION_PRO_PLAN_ID = "plan_H2IOBsKSJ9Z2EO";
 
       if (PUBLISHABLE_KEY === "pk_1234") {
         console.log(
